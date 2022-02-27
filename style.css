@@ -1,3 +1,36 @@
 .center{
    text-align: center;
+   
+}
+
+span{
+   display: inline-block;
+}
+
+img{
+   width: 100%;
+}
+
+.table-header div span{
+   margin-top: 15px;
+   font-size: large;
+   font-weight: bold;
+}
+.image-row{
+   margin-bottom: 15px;
+}
+
+.authors{
+   font-style: italic;
+   font-size: large;
+   font-weight: 400;
+}
+
+.aff{
+   font-size: large;
+}
+
+.conf{
+   font-style: italic;
+   font-size: larger;
 }
