@@ -29,7 +29,7 @@ codecs ={
    },
    "gan_LI": {
       "title": "Limitedly finetuned model",
-      "desc": "Using the same approach as the finetuned codec, but with an attenuated dynamic from the adversarial component"
+      "desc": "Using the same approach as the finetuned codec, but with an attenuated dynamics from the adversarial component"
    },
 }
 desc_tem = """
