@@ -1,0 +1,5 @@
+get_images.bat
+# output_images/*/_patch
+output_images/*/*
+!output_images/*/patch
+

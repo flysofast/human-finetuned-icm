@@ -16,8 +16,8 @@ img{
    font-size: large;
    font-weight: bold;
 }
-.image-row{
-   margin-bottom: 15px;
+.image-row > .col{
+   padding-bottom: 15px;
 }
 
 .authors{
@@ -33,4 +33,8 @@ img{
 .conf{
    font-style: italic;
    font-size: larger;
+}
+
+.highlighted{
+   background-color: rgb(210, 243, 208);
 }
