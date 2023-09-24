@@ -35,6 +35,10 @@ img{
    font-size: larger;
 }
 
+.links{
+   font-size:x-large;
+}
+
 .highlighted{
    background-color: rgb(210, 243, 208);
 }
