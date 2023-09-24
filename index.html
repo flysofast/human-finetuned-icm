@@ -17,7 +17,7 @@
       <div class="row justify-content-md-center">
          <div class="col-md-auto">
             <h2 class="center">BRIDGING THE GAP BETWEEN IMAGE CODING FOR MACHINES AND HUMANS</h2>
- 
+
             </h1>
          </div>
       </div>
@@ -37,352 +37,372 @@
             <span class="center conf">IEEE International Conference in Image Processing (ICIP) 2022</span>
          </div>
       </div>
-      <hr>
+      <div class="row justify-content-md-center">
+         <div class="col-md-auto">
+            <span class="center links">[<a href="https://ieeexplore.ieee.org/document/9897916">Paper</a>]</span>
+            <span class="center links">[<a href="VCM_gans_finetuning_ICIP-Poster.pdf">Poster</a>]</span>
 
+         </div>
+      </div>
+      <hr>
       <span class="table-desc">
          Below is a table of the output samples from different codecs:
          <ol>
             <!-- <li>Base codec: The end-to-end trained model without finetuning</li>
             <li>Finetuned codec: The main proposal of this paper, which is the base codec finetuned using a GANs-based approach</li>
             <li>Limitedly finetuned model: using the same approach as the finetuned codec, but with an attenuated dynamic from the adversarial component</li> -->
-            
-   <li><b>Base model</b>: The end-to-end trained model without finetuning</li>
 
-   <li><b>Gaussian post-processing filter</b>: The decoded image is processed using a Gaussian filter <i>(requires extra component)</i></li>
+            <li><b>Base model</b>: The end-to-end trained model without finetuning</li>
 
-   <li><b>Bilateral post-processing filter</b>: The decoded image is processed using a Bilateral filter <i>(requires extra component)</i></li>
+            <li><b>Gaussian post-processing filter</b>: The decoded image is processed using a Gaussian filter
+               <i>(requires extra component)</i>
+            </li>
 
-   <li><b>Finetuned model</b>: The main proposal of this paper, which is the base codec finetuned using a GANs-based approach</li>
+            <li><b>Bilateral post-processing filter</b>: The decoded image is processed using a Bilateral filter
+               <i>(requires extra component)</i>
+            </li>
 
-   <li><b>Limitedly finetuned model</b>: Using the same approach as the finetuned codec, but with attenuated dynamics from the adversarial component</li>
+            <li><b>Finetuned model</b>: The main proposal of this paper, which is the base codec finetuned using a
+               GANs-based approach</li>
+
+            <li><b>Limitedly finetuned model</b>: Using the same approach as the finetuned codec, but with attenuated
+               dynamics from the adversarial component</li>
 
          </ol>
-         The input images are from the <a href="https://storage.googleapis.com/openimages/web/factsfigures.html">Open Images</a> dataset.
+         The input images are from the <a href="https://storage.googleapis.com/openimages/web/factsfigures.html">Open
+            Images</a> dataset.
       </span>
 
       <!-- <div class="row" style="text-align: center; margin: auto;"> -->
-         <div class="row table-header">
-            
-   <div class="col center ">
-         <span>Base model</span>
-   </div>
+      <div class="row table-header">
 
-   <div class="col center ">
-         <span>Gaussian post-processing filter</span>
-   </div>
-
-   <div class="col center ">
-         <span>Bilateral post-processing filter</span>
-   </div>
-
-   <div class="col center highlighted">
-         <span>Finetuned model</span>
-   </div>
-
-   <div class="col center highlighted">
-         <span>Limitedly finetuned model</span>
-   </div>
-
+         <div class="col center ">
+            <span>Base model</span>
          </div>
-         
-      <div class="row image-row">
-         
-   <div class="col ">
-      <img src="output_images\01a6c89f9885d483\patch\e2ecoded.png" alt="base"></img>
-   </div>
 
-   <div class="col ">
-      <img src="output_images\01a6c89f9885d483\patch\gaussian.png" alt="gaussian"></img>
-   </div>
+         <div class="col center ">
+            <span>Gaussian post-processing filter</span>
+         </div>
 
-   <div class="col ">
-      <img src="output_images\01a6c89f9885d483\patch\bilteral.png" alt="bilateral"></img>
-   </div>
+         <div class="col center ">
+            <span>Bilateral post-processing filter</span>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\01a6c89f9885d483\patch\gan20-epoch231.png" alt="gan"></img>
-   </div>
+         <div class="col center highlighted">
+            <span>Finetuned model</span>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\01a6c89f9885d483\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
-   </div>
+         <div class="col center highlighted">
+            <span>Limitedly finetuned model</span>
+         </div>
 
       </div>
-   
+
       <div class="row image-row">
-         
-   <div class="col ">
-      <img src="output_images\0a1f4761dc7fe1eb\patch\e2ecoded.png" alt="base"></img>
-   </div>
 
-   <div class="col ">
-      <img src="output_images\0a1f4761dc7fe1eb\patch\gaussian.png" alt="gaussian"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\01a6c89f9885d483\patch\e2ecoded.png" alt="base"></img>
+         </div>
 
-   <div class="col ">
-      <img src="output_images\0a1f4761dc7fe1eb\patch\bilteral.png" alt="bilateral"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\01a6c89f9885d483\patch\gaussian.png" alt="gaussian"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\0a1f4761dc7fe1eb\patch\gan20-epoch231.png" alt="gan"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\01a6c89f9885d483\patch\bilteral.png" alt="bilateral"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\0a1f4761dc7fe1eb\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
-   </div>
+         <div class="col highlighted">
+            <img src="output_images\01a6c89f9885d483\patch\gan20-epoch231.png" alt="gan"></img>
+         </div>
+
+         <div class="col highlighted">
+            <img src="output_images\01a6c89f9885d483\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
+         </div>
 
       </div>
-   
+
       <div class="row image-row">
-         
-   <div class="col ">
-      <img src="output_images\0afaaa3cfae6579e\patch\e2ecoded.png" alt="base"></img>
-   </div>
 
-   <div class="col ">
-      <img src="output_images\0afaaa3cfae6579e\patch\gaussian.png" alt="gaussian"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0a1f4761dc7fe1eb\patch\e2ecoded.png" alt="base"></img>
+         </div>
 
-   <div class="col ">
-      <img src="output_images\0afaaa3cfae6579e\patch\bilteral.png" alt="bilateral"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0a1f4761dc7fe1eb\patch\gaussian.png" alt="gaussian"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\0afaaa3cfae6579e\patch\gan20-epoch231.png" alt="gan"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0a1f4761dc7fe1eb\patch\bilteral.png" alt="bilateral"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\0afaaa3cfae6579e\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
-   </div>
+         <div class="col highlighted">
+            <img src="output_images\0a1f4761dc7fe1eb\patch\gan20-epoch231.png" alt="gan"></img>
+         </div>
+
+         <div class="col highlighted">
+            <img src="output_images\0a1f4761dc7fe1eb\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
+         </div>
 
       </div>
-   
+
       <div class="row image-row">
-         
-   <div class="col ">
-      <img src="output_images\0c08c1a56daae22a\patch\e2ecoded.png" alt="base"></img>
-   </div>
 
-   <div class="col ">
-      <img src="output_images\0c08c1a56daae22a\patch\gaussian.png" alt="gaussian"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0afaaa3cfae6579e\patch\e2ecoded.png" alt="base"></img>
+         </div>
 
-   <div class="col ">
-      <img src="output_images\0c08c1a56daae22a\patch\bilteral.png" alt="bilateral"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0afaaa3cfae6579e\patch\gaussian.png" alt="gaussian"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\0c08c1a56daae22a\patch\gan20-epoch231.png" alt="gan"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0afaaa3cfae6579e\patch\bilteral.png" alt="bilateral"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\0c08c1a56daae22a\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
-   </div>
+         <div class="col highlighted">
+            <img src="output_images\0afaaa3cfae6579e\patch\gan20-epoch231.png" alt="gan"></img>
+         </div>
+
+         <div class="col highlighted">
+            <img src="output_images\0afaaa3cfae6579e\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
+         </div>
 
       </div>
-   
+
       <div class="row image-row">
-         
-   <div class="col ">
-      <img src="output_images\0c9b2fa4f623f229\patch\e2ecoded.png" alt="base"></img>
-   </div>
 
-   <div class="col ">
-      <img src="output_images\0c9b2fa4f623f229\patch\gaussian.png" alt="gaussian"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0c08c1a56daae22a\patch\e2ecoded.png" alt="base"></img>
+         </div>
 
-   <div class="col ">
-      <img src="output_images\0c9b2fa4f623f229\patch\bilteral.png" alt="bilateral"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0c08c1a56daae22a\patch\gaussian.png" alt="gaussian"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\0c9b2fa4f623f229\patch\gan20-epoch231.png" alt="gan"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0c08c1a56daae22a\patch\bilteral.png" alt="bilateral"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\0c9b2fa4f623f229\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
-   </div>
+         <div class="col highlighted">
+            <img src="output_images\0c08c1a56daae22a\patch\gan20-epoch231.png" alt="gan"></img>
+         </div>
+
+         <div class="col highlighted">
+            <img src="output_images\0c08c1a56daae22a\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
+         </div>
 
       </div>
-   
+
       <div class="row image-row">
-         
-   <div class="col ">
-      <img src="output_images\0e6376304d9770b4\patch\e2ecoded.png" alt="base"></img>
-   </div>
 
-   <div class="col ">
-      <img src="output_images\0e6376304d9770b4\patch\gaussian.png" alt="gaussian"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0c9b2fa4f623f229\patch\e2ecoded.png" alt="base"></img>
+         </div>
 
-   <div class="col ">
-      <img src="output_images\0e6376304d9770b4\patch\bilteral.png" alt="bilateral"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0c9b2fa4f623f229\patch\gaussian.png" alt="gaussian"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\0e6376304d9770b4\patch\gan20-epoch231.png" alt="gan"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0c9b2fa4f623f229\patch\bilteral.png" alt="bilateral"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\0e6376304d9770b4\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
-   </div>
+         <div class="col highlighted">
+            <img src="output_images\0c9b2fa4f623f229\patch\gan20-epoch231.png" alt="gan"></img>
+         </div>
+
+         <div class="col highlighted">
+            <img src="output_images\0c9b2fa4f623f229\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
+         </div>
 
       </div>
-   
+
       <div class="row image-row">
-         
-   <div class="col ">
-      <img src="output_images\0e879a7e1178f821\patch\e2ecoded.png" alt="base"></img>
-   </div>
 
-   <div class="col ">
-      <img src="output_images\0e879a7e1178f821\patch\gaussian.png" alt="gaussian"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0e6376304d9770b4\patch\e2ecoded.png" alt="base"></img>
+         </div>
 
-   <div class="col ">
-      <img src="output_images\0e879a7e1178f821\patch\bilteral.png" alt="bilateral"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0e6376304d9770b4\patch\gaussian.png" alt="gaussian"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\0e879a7e1178f821\patch\gan20-epoch231.png" alt="gan"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0e6376304d9770b4\patch\bilteral.png" alt="bilateral"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\0e879a7e1178f821\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
-   </div>
+         <div class="col highlighted">
+            <img src="output_images\0e6376304d9770b4\patch\gan20-epoch231.png" alt="gan"></img>
+         </div>
+
+         <div class="col highlighted">
+            <img src="output_images\0e6376304d9770b4\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
+         </div>
 
       </div>
-   
+
       <div class="row image-row">
-         
-   <div class="col ">
-      <img src="output_images\0f340f00491b9231\patch\e2ecoded.png" alt="base"></img>
-   </div>
 
-   <div class="col ">
-      <img src="output_images\0f340f00491b9231\patch\gaussian.png" alt="gaussian"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0e879a7e1178f821\patch\e2ecoded.png" alt="base"></img>
+         </div>
 
-   <div class="col ">
-      <img src="output_images\0f340f00491b9231\patch\bilteral.png" alt="bilateral"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0e879a7e1178f821\patch\gaussian.png" alt="gaussian"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\0f340f00491b9231\patch\gan20-epoch231.png" alt="gan"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0e879a7e1178f821\patch\bilteral.png" alt="bilateral"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\0f340f00491b9231\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
-   </div>
+         <div class="col highlighted">
+            <img src="output_images\0e879a7e1178f821\patch\gan20-epoch231.png" alt="gan"></img>
+         </div>
+
+         <div class="col highlighted">
+            <img src="output_images\0e879a7e1178f821\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
+         </div>
 
       </div>
-   
+
       <div class="row image-row">
-         
-   <div class="col ">
-      <img src="output_images\0ff8dd7e1d0f6010\patch\e2ecoded.png" alt="base"></img>
-   </div>
 
-   <div class="col ">
-      <img src="output_images\0ff8dd7e1d0f6010\patch\gaussian.png" alt="gaussian"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0f340f00491b9231\patch\e2ecoded.png" alt="base"></img>
+         </div>
 
-   <div class="col ">
-      <img src="output_images\0ff8dd7e1d0f6010\patch\bilteral.png" alt="bilateral"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0f340f00491b9231\patch\gaussian.png" alt="gaussian"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\0ff8dd7e1d0f6010\patch\gan20-epoch231.png" alt="gan"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0f340f00491b9231\patch\bilteral.png" alt="bilateral"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\0ff8dd7e1d0f6010\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
-   </div>
+         <div class="col highlighted">
+            <img src="output_images\0f340f00491b9231\patch\gan20-epoch231.png" alt="gan"></img>
+         </div>
+
+         <div class="col highlighted">
+            <img src="output_images\0f340f00491b9231\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
+         </div>
 
       </div>
-   
+
       <div class="row image-row">
-         
-   <div class="col ">
-      <img src="output_images\1aa6fde219456389\patch\e2ecoded.png" alt="base"></img>
-   </div>
 
-   <div class="col ">
-      <img src="output_images\1aa6fde219456389\patch\gaussian.png" alt="gaussian"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0ff8dd7e1d0f6010\patch\e2ecoded.png" alt="base"></img>
+         </div>
 
-   <div class="col ">
-      <img src="output_images\1aa6fde219456389\patch\bilteral.png" alt="bilateral"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0ff8dd7e1d0f6010\patch\gaussian.png" alt="gaussian"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\1aa6fde219456389\patch\gan20-epoch231.png" alt="gan"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\0ff8dd7e1d0f6010\patch\bilteral.png" alt="bilateral"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\1aa6fde219456389\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
-   </div>
+         <div class="col highlighted">
+            <img src="output_images\0ff8dd7e1d0f6010\patch\gan20-epoch231.png" alt="gan"></img>
+         </div>
+
+         <div class="col highlighted">
+            <img src="output_images\0ff8dd7e1d0f6010\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
+         </div>
 
       </div>
-   
+
       <div class="row image-row">
-         
-   <div class="col ">
-      <img src="output_images\1c878debbe70c58a\patch\e2ecoded.png" alt="base"></img>
-   </div>
 
-   <div class="col ">
-      <img src="output_images\1c878debbe70c58a\patch\gaussian.png" alt="gaussian"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\1aa6fde219456389\patch\e2ecoded.png" alt="base"></img>
+         </div>
 
-   <div class="col ">
-      <img src="output_images\1c878debbe70c58a\patch\bilteral.png" alt="bilateral"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\1aa6fde219456389\patch\gaussian.png" alt="gaussian"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\1c878debbe70c58a\patch\gan20-epoch231.png" alt="gan"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\1aa6fde219456389\patch\bilteral.png" alt="bilateral"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\1c878debbe70c58a\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
-   </div>
+         <div class="col highlighted">
+            <img src="output_images\1aa6fde219456389\patch\gan20-epoch231.png" alt="gan"></img>
+         </div>
+
+         <div class="col highlighted">
+            <img src="output_images\1aa6fde219456389\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
+         </div>
 
       </div>
-   
+
       <div class="row image-row">
-         
-   <div class="col ">
-      <img src="output_images\3d8581e9881e85d2\patch\e2ecoded.png" alt="base"></img>
-   </div>
 
-   <div class="col ">
-      <img src="output_images\3d8581e9881e85d2\patch\gaussian.png" alt="gaussian"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\1c878debbe70c58a\patch\e2ecoded.png" alt="base"></img>
+         </div>
 
-   <div class="col ">
-      <img src="output_images\3d8581e9881e85d2\patch\bilteral.png" alt="bilateral"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\1c878debbe70c58a\patch\gaussian.png" alt="gaussian"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\3d8581e9881e85d2\patch\gan20-epoch231.png" alt="gan"></img>
-   </div>
+         <div class="col ">
+            <img src="output_images\1c878debbe70c58a\patch\bilteral.png" alt="bilateral"></img>
+         </div>
 
-   <div class="col highlighted">
-      <img src="output_images\3d8581e9881e85d2\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
-   </div>
+         <div class="col highlighted">
+            <img src="output_images\1c878debbe70c58a\patch\gan20-epoch231.png" alt="gan"></img>
+         </div>
+
+         <div class="col highlighted">
+            <img src="output_images\1c878debbe70c58a\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
+         </div>
 
       </div>
-   
+
+      <div class="row image-row">
+
+         <div class="col ">
+            <img src="output_images\3d8581e9881e85d2\patch\e2ecoded.png" alt="base"></img>
+         </div>
+
+         <div class="col ">
+            <img src="output_images\3d8581e9881e85d2\patch\gaussian.png" alt="gaussian"></img>
+         </div>
+
+         <div class="col ">
+            <img src="output_images\3d8581e9881e85d2\patch\bilteral.png" alt="bilateral"></img>
+         </div>
+
+         <div class="col highlighted">
+            <img src="output_images\3d8581e9881e85d2\patch\gan20-epoch231.png" alt="gan"></img>
+         </div>
+
+         <div class="col highlighted">
+            <img src="output_images\3d8581e9881e85d2\patch\gan_lowLR_p128_44-epoch221.png" alt="gan_LI"></img>
+         </div>
+
+      </div>
+
 
       <!-- </div> -->
-     
-      
-    
-     
-      </div>
-   </div>
-   <hr>
 
+
+
+
+      <hr>
+      <b>BibTeX:</b>
+      @INPROCEEDINGS{le2022_bridging,
+      author={Le, Nam and Zhang, Honglei and Cricri, Francesco and Youvalari, Ramin G. and Rezazadegan Tavakoli,
+      Hamed and Aksu, Emre and Hannuksela, Miska M. and Rahtu, Esa},
+      booktitle={2022 IEEE International Conference on Image Processing (ICIP)},
+      title={Bridging the Gap Between Image Coding for Machines and Humans},
+      year={2022},
+      pages={3411-3415},
+      doi={10.1109/ICIP46576.2022.9897916}}
+   </div>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"></script>
